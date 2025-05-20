@@ -1,0 +1,5 @@
+_test*.py
+*.bash
+
+**/outputs/*
+

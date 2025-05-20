@@ -1,0 +1,10 @@
+{
+    "problem": "problem01",
+    "entry_point": "src/main.py",
+    "inputs": "inputs",
+    "outputs": "outputs",
+    "tests": "tests",
+    "script:run:posix": "python3 [entry_point] < [input] > [output]",
+    "script:run:nt": "python [entry_point] < [input] > [output]",
+    "timeout_seconds": 3
+}
