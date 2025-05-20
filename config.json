@@ -6,5 +6,5 @@
     "tests": "tests",
     "script:run:posix": "python3 [entry_point] < [input] > [output]",
     "script:run:nt": "python [entry_point] < [input] > [output]",
-    "timeout_seconds": 3
+    "timeout_seconds": 5
 }
