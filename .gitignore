@@ -3,3 +3,4 @@ _test*.py
 
 **/outputs/*
 
+hidden/*
