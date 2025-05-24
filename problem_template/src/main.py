@@ -1,8 +1,6 @@
-import time
-import random
+from utils import readlines
 
-N=int(input())
-if random.random() < 0.5:
-    time.sleep(3)
-print(input())
 
+if __name__ == "__main__":
+    for line in readlines():
+        print(line)
