@@ -4,3 +4,10 @@ _test*.py
 **/outputs/*
 
 hidden/*
+
+**/answer.py
+
+__pycache__/
+
+.vscode/
+

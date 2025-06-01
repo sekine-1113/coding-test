@@ -25,8 +25,8 @@
     "inputs": "inputs",
     "outputs": "outputs",
     "tests": "tests",
-    "script:run:posix": "python3 [entry_point] < [input] > [output]",
-    "script:run:nt": "python [entry_point] < [input] > [output]",
+    "script:run:posix": "python3 {entry_point} < {input} > {output}",
+    "script:run:nt": "python {entry_point} < {input} > {output}",
     "timeout_seconds": 3
 }
 ```
@@ -38,16 +38,16 @@
 |inputs|inputs|テストの入力用ファイルがあるディレクトリ|
 |outputs|outputs|テストの出力用ファイルがあるディレクトリ|
 |tests|tests|テストの期待される出力用ファイルがあるディレクトリ|
-|script:run:posix|python3 [entry_point] < [input] > [output]|Linux用Python実行コマンド|
-|script:run:nt|python [entry_point] < [input] > [output]|Windows用Python実行コマンド|
+|script:run:posix|python3 {entry_point} < {input} > {output}"|Linux用Python実行コマンド|
+|script:run:nt|python {entry_point} < {input} > {output}"|Windows用Python実行コマンド|
 |timeout_seconds|5|タイムアウトの秒数|
 
-`srcipt:run:*` では、 `[entry_point]`, `[input]`, `[output]` が利用可能です。
+`script:run:*` では、 `{entry_point}`, `{input}`, `{output}` が利用可能です。
 
 |key|description|
 |:--|:--|
-|[entry_point]|実行するスクリプト|
-|[input]|入力するファイル名|
-|[output]|出力するファイル名|
+|{entry_point}|実行するスクリプト|
+|{input}|入力するファイル名|
+|{output}|出力するファイル名|
 
 ここに記述されているものはすべて変更が可能です。
