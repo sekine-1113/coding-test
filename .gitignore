@@ -10,4 +10,4 @@ hidden/*
 __pycache__/
 
 .vscode/
-
+.venv/

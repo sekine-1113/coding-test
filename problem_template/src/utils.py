@@ -1,4 +1,5 @@
 import sys
+from typing import Any, Generator
 
 
 def readlines() -> list[str]:
@@ -15,9 +16,12 @@ def readlines() -> list[str]:
         N = int(sys.stdin.readline())
         read_lines = []
         for _ in range(N):
-            read_lines.append(sys.stdin.readline())
+            read_lines.append(sys.stdin.readline().strip())
         return read_lines
     except ValueError as e:
         raise e
     except Exception as e:
         raise e
+
+
+def readlines_iter() -> Generator[Any, Any, Any]: ...
