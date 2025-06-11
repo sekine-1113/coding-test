@@ -10,7 +10,7 @@
 
 解答は `problemXX/src/main.py` に記述してください。
 
-新たにファイルを作ったり、外部ライブラリを使用することは可能です。
+新たにファイルを作成したり、外部ライブラリの使用をすることができます。
 
 `python3 run.py` を実行すると、自動的にテストが行われ結果が表示されます。
 
@@ -33,7 +33,7 @@
 
 |key|value|description|
 |:--|:--|:--|
-|problem|problem01|解答する問題。変更可能|
+|problem|problem01|解答する問題。変更可能。|
 |entry_point|src/main.py|実行するスクリプト|
 |inputs|inputs|テストの入力用ファイルがあるディレクトリ|
 |outputs|outputs|テストの出力用ファイルがあるディレクトリ|
